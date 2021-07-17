@@ -46,7 +46,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
 const type = new Typed(".typed", {
-    strings: ["JavaScript Developer", "Frond-End Developer", "JavaScript Developer", "Profesional React.js Redux", "Web Desing"],
+    strings: ["JavaScript Developer", "JavaScript Developer", "Profesional React.js Redux", "Web Desing"],
     stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
     typeSpeed: 75, // Velocidad en mlisegundos para poner una letra,
     startDelay: 300, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,
