@@ -1,95 +1,811 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!--==================== UNICONS ====================-->
-        
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="">
+    <!--==================== UNICONS ====================-->
 
-        <title>Responsive Portfolio Website</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            
-        </header>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css"
+    />
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                
-            </section>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
-        
-            </section>
+    <!--==================== SWIPER CSS ====================-->
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 
+    <title>Responsive Portfolio Website</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uit uit-house-user nav__icon"></i> Inicio
+              </a>
+            </li>
 
-            </section>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uit uit-head-side nav__icon"></i> Sobre mi
+              </a>
+            </li>
 
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uit uit-star-half-alt nav__icon"></i> Habilidades
+              </a>
+            </li>
 
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uit uit-airplay nav__icon"></i> Portafolio
+              </a>
+            </li>
 
-            </section>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="uit uit-bag nav__icon"></i> Estudio / Experiecia
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uit uit-laptop nav__icon"></i> Contacto
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-x nav__close" id="nav-close"></i>
+        </div>
+        <div class="div nav__btns">
+          <div class="div nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/andresfelipepinillameneses/"
+                target="_blanK"
+                class="home__social-icon"
+              >
+                <i class="uit uit-linkedin-alt"></i>
+              </a>
 
-            </section>
+              <!-- <a href="#" class="home__social-icon">
+                <i class="uil uil-dribbble"></i>
+              </a> -->
 
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                
+              <a
+                href="https://github.com/andresfelipe3112"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
 
-            </section>
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:link="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
 
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+                  <image
+                    class="home__blob-img"
+                    x="18"
+                    y="18"
+                    xlink:href="./assets/img/perfil.png"
+                  />
+                </g>
+              </svg>
+            </div>
 
+            <div class="home__data">
+              <h2 style="font-size:1rem;" class="home__title">
+                Hello World!
+              </h2>
+              <h1 class="home__title">Andres Felipe P. M.</h1>
+              <h3 class="home__subtitle">
+                <span class="typed"> </span>
+              </h3>
+              <p class="home__description">
+                Soy una persona comprometida con el trabajo, creativa y
+                entusiasta ante los nuevos retos, me encanta la programación y
+                por ello me gustaría ser considerado para participar en el
+                proceso de selección y pertenecer a su equipo de trabajo.
+              </p>
 
-            </section>
+              <a href="#" class="button button--flex">
+                Contacto <i class="uil uil-message button__icon"></i>
+              </a>
+              <a
+                target="_blank"
+                href="./assets/img/CV.pdf"
+                id="descarga"
+                class="button button--flex"
+              >
+                Descargar C.v
+                <i class="uil uil-message button__icon__descarga"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
 
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">Sobre mi</h2>
+        <span class="section__subtitle">Andres Felipe Pinilla Meneses</span>
 
-            </section>
+        <div class="about__container container grid">
+          <img
+            src="assets/img/escritorioblancoynegro.jpg"
+            alt=""
+            class="about__img"
+          />
 
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
+          <div class="about__data">
+            <p class="about__description">
+              Soy desarrollador web en la ciudad de Bogotá. Me desempeñé en la
+              industria digital por más de 4 años como optimizador de campañas
+              de Google Ads y Facebook Ads, desde ese momento quise profundizar
+              mis conocimientos en programación Frond-End / Back-End. Consolide
+              mis estudios en diferentes institutos de primera calidad y los
+              aplico constantemente en ladiferentes proyectos.
+            </p>
 
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">02+</span>
+                <span class="about__info-name"
+                  >Años <br />
+                  experiencia
+                </span>
+              </div>
 
-            </section>
-        </main>
+              <div>
+                <span class="about__info-title">1000hs+</span>
+                <span class="about__info-name"
+                  >Código <br />
+                  programado
+                </span>
+              </div>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
+              <div>
+                <span class="about__info-title">02+</span>
+                <span class="about__info-name"
+                  >Compañias <br />
+                  experiencia</span
+                >
+              </div>
+            </div>
 
-            
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        
+            <div class="div about__buttons">
+              <a
+                href="./assets/img/CV.pdf"
+                target="_blank"
+                class="button button--flex"
+              >
+                Descargar c.v.
+                <i class="uil uil-download-alt button__icon"> </i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Habilidades</h2>
+        <span class="section__subtitle">My tecnical nivel</span>
 
-        <!--==================== MAIN JS ====================-->
-        <script src=""></script>
-    </body>
+        <div class="skills__container container grid">
+          <div>
+            <!--==================== SKILLS 1 ====================-->
+            <div class="skills__content skills__open ">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+                <div class="div">
+                  <h1 class="skills_title">
+                    Frontend Developer
+                  </h1>
+                  <span class="skills__subtitle"></span>
+                </div>
+
+                <i class="uil uil-angle-double-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__html"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__css"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__js"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">React.js</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__react"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Redux</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__redux"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Sass</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__sass"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Testing</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__testing"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== SKILLS 2 ====================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+                <div class="div">
+                  <h1 class="skills_title">
+                    Backend Developer
+                  </h1>
+                  <span class="skills__subtitle"></span>
+                </div>
+
+                <i class="uil uil-angle-double-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Node.js</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__node"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Express</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__express"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">SQL</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__sql"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== SKILLS 3 ====================-->
+
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-swatchbook skills__icon"></i>
+                <div class="div">
+                  <h1 class="skills_title">
+                    Habilidades Adicionales
+                  </h1>
+                  <span class="skills__subtitle"></span>
+                </div>
+
+                <i class="uil uil-angle-double-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Photoshop</h3>
+                    <span class="skills__number">95%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__photo"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Adobe Ilustrator</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__ilust"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Adobe Vimeo</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__vimeo"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Google Ads</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__googleads"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section">
+        <section class="qualification section">
+          <h2 class="section__title">Qualification</h2>
+          <span class="section__subtitle">My personal</span>
+
+          <div class="qualification__container container">
+            <div class="qualification__tabs">
+              <div class="qualification__button button--flex">
+                <i class="uil uil-graduation-cap qualification__icon"></i>
+                Educación
+              </div>
+
+              <div class="qualification__button button--flex">
+                <i class="uil uil-parcel qualification__icon"></i>
+                Experiencia
+              </div>
+            </div>
+
+            <div class="qualification__sections">
+              <!--==================== QUALIFICATION content 1====================-->
+
+              <div
+                class="qualification__content qualification__active"
+                data-content
+                id="education"
+              >
+                <!--==================== QUALIFICATION content 1====================-->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">
+                      Bootcamp Back-End Developer
+                    </h3>
+                    <span class="qualification__subtitle"
+                      >Bogotá -Colombia Academlo</span
+                    >
+                    <div class="qualification__calendar">
+                      Node.js - TypeScript - Python - Express - Sql - MongoDB
+                    </div>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2021 - 2022
+                    </div>
+                  </div>
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+                </div>
+
+                <!--==================== QUALIFICATION 2====================-->
+                <div class="qualification__data">
+                  <div></div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+
+                  <div>
+                    <h3 class="qualification__title">
+                      Optimizador de Paginas (SEO) con React.js
+                    </h3>
+                    <span class="qualification__subtitle"
+                      >Google S.A Buenos Aires</span
+                    >
+                    <div class="qualification__calendar">
+                      <p>
+                        Trabajé en Google ADS en las oficinas de Buenos Aires
+                        asesorando un promedio de 30 empresas por día,
+                        optimizando sus campañas, mejorando aspectos básicos
+                        como su página web creada con React.js, presupuestos y
+                        aplicando SEO para una búsqueda inteligente
+                      </p>
+                    </div>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2019 -2020
+                    </div>
+                  </div>
+                  <div>
+                    <!-- <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span> -->
+                  </div>
+                </div>
+
+                <!--==================== QUALIFICATION  3====================-->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">
+                      Bootcamp Front-End Developer
+                    </h3>
+                    <span class="qualification__subtitle"
+                      >Buenos Aires - Argentina</span
+                    >
+                    <div class="qualification__calendar">
+                      Html - Css - JavaScript - ES6- React.js - Redux - Testing
+                      - GetApi |
+                    </div>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2020 -2021
+                    </div>
+                  </div>
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+                </div>
+
+                <!--==================== QUALIFICATION 4 ====================-->
+                <div class="qualification__data">
+                  <div></div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+
+                  <div>
+                    <h3 class="qualification__title">
+                      Optimizador de campañas y presupuesto en Google Ads
+                    </h3>
+
+                    <div class="qualification__calendar">
+                      <p>
+                        Optimizador de campañas, asesorando a más de 1000
+                        clientes en toda América Latina en el algoritmo de
+                        ventas por conversión.
+                      </p>
+                    </div>
+                    <span class="qualification__subtitle"
+                      >ATENTO S.A Buenos Aires</span
+                    >
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2017 -2019
+                    </div>
+                  </div>
+                  <div>
+                    <!-- <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span> -->
+                  </div>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION content 1====================-->
+
+              <div class="qualification__content" data-content id="work">
+                <!--==================== QUALIFICATION content 1====================-->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">
+                      Analista de Sistemas de información
+                    </h3>
+                    <span class="qualification__subtitle"
+                      >Perú -university</span
+                    >
+                    <div class="qualification__calendar">
+                      <p>Lógica y Bases de Programación</p>
+                      <p>Matemáticas y estadístican</p>
+                      <p>Google Ads y Facebook Ads</p>
+                    </div>
+
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2016 - 2017 (1 año y medio)
+                    </div>
+                  </div>
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <!-- <span class="qualification__line"></span> -->
+                  </div>
+                </div>
+
+                <!--==================== QUALIFICATION 2====================-->
+
+                <!--==================== QUALIFICATION  3====================-->
+                <!-- <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">Computer Enginner</h3>
+                    <span class="qualification__subtitle"
+                      >Perú -university</span
+                    >
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2009 -2014
+                    </div>
+                  </div>
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+                </div> -->
+
+                <!--==================== QUALIFICATION 4 ====================-->
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <!-- <section class="services section" id="services"></section> -->
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portafolio</h2>
+        <span class="section__subtitle">Proyectos Recientes</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <div class="portfolio__content grip swiper-slide">
+              <img
+                src="./assets/img/portfolio1.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Moder Website</h3>
+                <p class="portfolio__description">jasdjasdjaskdjdfkasjdksajf</p>
+                <a
+                  href=""
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+
+                  <i class="uil uil-angle-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio__content grip swiper-slide">
+            <img
+              src="./assets/img/portfolio2.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Moder Website</h3>
+              <p class="portfolio__description">jasdjasdjaskdjdfkasjdksajf</p>
+              <a
+                href=""
+                class="button button--flex button--small portfolio__button"
+              >
+                Demo
+
+                <i class="uil uil-angle-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="portfolio__content grip swiper-slide">
+            <img
+              src="./assets/img/portfolio3.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Moder Website</h3>
+              <p class="portfolio__description">jasdjasdjaskdjdfkasjdksajf</p>
+              <a
+                href=""
+                class="button button--flex button--small portfolio__button"
+              >
+                Demo
+
+                <i class="uil uil-angle-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJECT IN MIND ====================-->
+      <!-- <section class="project section"></section> -->
+
+      <!--==================== TESTIMONIAL ====================-->
+      <!-- <section class="testimonial section"></section> -->
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contacto</h2>
+        <span class="section__subtitle">Get in touch</span>
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-mobile-android contact__icon"></i>
+              <div>
+                <a target="_blank" href="https://wa.me/573142099202 .">
+                  <h3 class="contact__title">Whatsapp</h3>
+                  <span class="contact__subtitle">+57 314 209 9202</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope-minus contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Gmail</h3>
+                <span class="contact__subtitle"
+                  >andresfelipe3112@gmail.com</span
+                >
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-linkedin contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Linkind</h3>
+                <a
+                  href="https://www.linkedin.com/in/andresfelipepinillameneses/"
+                  target="_blank"
+                  class="contact__subtitle"
+                  >in/andresfelipepinillameneses</a
+                >
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-github contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Github</h3>
+                <a
+                  href="https://github.com/andresfelipe3112"
+                  target="_blank"
+                  class="contact__subtitle"
+                  >github.com/andresfelipe3112</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- <form action="" class="contact__form gri">
+            <div class="contact__inputs gri">
+              <div class="contact__content">
+                <label for="" class="contact__label">
+                  <input type="text" class="contact__input" />
+                </label>
+              </div>
+            </div>
+          </form> -->
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer"></footer>
+
+    <!--==================== SCROLL TOP ====================-->
+
+    <!--==================== SWIPER JS ====================-->
+    <script src=""></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
