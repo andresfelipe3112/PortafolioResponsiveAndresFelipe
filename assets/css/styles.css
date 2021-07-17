@@ -657,7 +657,7 @@ transition: .3s;
 
 .portfolio__container{
     overflow:initial;
-
+     
 }
 
 .portfolio__content{
@@ -666,11 +666,13 @@ transition: .3s;
 
 .portfolio__img{
     
-    width:350px;
-    header:400px;
+    width:400px;
+    height:250px;
     border-radius: .5rem;
     justify-self: center;
+    margin-right: 1.5rem;
 }
+
 
 .portfolio__title{
     font-size: var(--h3-font-size);
@@ -696,7 +698,7 @@ transition: .3s;
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
-}
+   }
 
 
 

@@ -13,7 +13,7 @@ if (navToggle) {
         navMenu.classList.add("show-menu")
         navToggle.style.visibility = "hidden"
     })
-    
+
 }
 
 /*===== MENU HIDDEN =====*/
@@ -23,10 +23,11 @@ if (navClose) {
     navClose.addEventListener("click", function () {
         navMenu.classList.remove("show-menu")
         navToggle.style.visibility = "visible";
+
     })
-  
-    
-    document.getElementsByClassName("nav__btns").style.visibility ="visible"
+
+
+
 }
 
 
@@ -59,6 +60,8 @@ const type = new Typed(".typed", {
     cursorChar: '|', // Caracter para el cursor
     contentType: 'html', // 'html' o 'null' para texto sin formato
 })
+
+
 
 
 /*==================== ACCORDION SKILLS ====================*/
