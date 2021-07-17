@@ -175,7 +175,7 @@ img{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    
 } 
 
 .nav__logo,
@@ -665,7 +665,9 @@ transition: .3s;
 }
 
 .portfolio__img{
+    
     width:350px;
+    header:400px;
     border-radius: .5rem;
     justify-self: center;
 }
@@ -688,7 +690,13 @@ transition: .3s;
 }
 
 
-
+.container_portafolio{
+    display:flex;
+    width:100%;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
 
 
 
@@ -1376,7 +1384,7 @@ margin-right: 3rem;
 
     .about__container{
         
-        margin-left: 24%;
+        margin-left: 20%;
     }
 
     .about__img{
@@ -1384,11 +1392,11 @@ margin-right: 3rem;
     }
 
     .skills__container{
-        margin-left:24%
+        margin-left:20%
     }
 
   .qualification__container{
-      margin-left: 20rem;
+      margin-left: 18rem;
   }
 
   .contact.container{
@@ -1400,7 +1408,7 @@ margin-right: 3rem;
   .contact__information{
     display:flex;
     margin-bottom: var(--mb-2);
-margin-left: 80%;
+margin-left: 70%;
     justify-content: flex-start
     
 }
