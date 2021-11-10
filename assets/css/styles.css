@@ -1522,3 +1522,12 @@ margin-right: 3rem;
 
 
 }
+
+.container_trabajoActual {
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-around;
+}
